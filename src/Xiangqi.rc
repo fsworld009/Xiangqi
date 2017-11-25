@@ -1,0 +1,450 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文 (台灣) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)\r\n"
+    "LANGUAGE 4, 1\r\n"
+    "#pragma code_page(950)\r\n"
+    "#include ""res\\Xiangqi.rc2""  // 非 Microsoft Visual C++ 編輯過的資源\r\n"
+    "#include ""afxres.rc""         // 標準元件\r\n"
+    "#include ""afxprint.rc""       // 列印/預覽列印資源\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Xiangqi.ico"
+IDR_XiangqiTYPE         ICON                    "res\\XiangqiDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDC_BOARD               BITMAP                  "res\\Sprite\\chess_board.bmp"
+IDB_C1_1_0              BITMAP                  "res\\Sprite\\chess_b_cannon_b.bmp"
+IDB_C1_1_1              BITMAP                  "res\\Sprite\\chess_b_cannon_g.bmp"
+IDB_C1_2_0              BITMAP                  "res\\Sprite\\chess_b_car_b.bmp"
+IDB_C1_2_1              BITMAP                  "res\\Sprite\\chess_b_car_g.bmp"
+IDB_C1_4_0              BITMAP                  "res\\Sprite\\chess_b_elephent_b.bmp"
+IDB_C1_4_1              BITMAP                  "res\\Sprite\\chess_b_elephent_g.bmp"
+IDB_C1_6_0              BITMAP                  "res\\Sprite\\chess_b_general_b.bmp"
+IDB_C1_6_1              BITMAP                  "res\\Sprite\\chess_b_general_g.bmp"
+IDB_C1_5_0              BITMAP                  "res\\Sprite\\chess_b_guardian_b.bmp"
+IDB_C1_5_1              BITMAP                  "res\\Sprite\\chess_b_guardian_g.bmp"
+IDB_C1_3_0              BITMAP                  "res\\Sprite\\chess_b_horse_b.bmp"
+IDB_C1_3_1              BITMAP                  "res\\Sprite\\chess_b_horse_g.bmp"
+IDB_C1_0_0              BITMAP                  "res\\Sprite\\chess_b_soilder_b.bmp"
+IDB_C1_0_1              BITMAP                  "res\\Sprite\\chess_b_soilder_g.bmp"
+IDB_C0_1_0              BITMAP                  "res\\Sprite\\chess_r_cannon_b.bmp"
+IDB_C0_1_1              BITMAP                  "res\\Sprite\\chess_r_cannon_g.bmp"
+IDB_C0_2_0              BITMAP                  "res\\Sprite\\chess_r_car_b.bmp"
+IDB_C0_2_1              BITMAP                  "res\\Sprite\\chess_r_car_g.bmp"
+IDB_C0_4_0              BITMAP                  "res\\Sprite\\chess_r_elephent_b.bmp"
+IDB_C0_4_1              BITMAP                  "res\\Sprite\\chess_r_elephent_g.bmp"
+IDB_C0_6_0              BITMAP                  "res\\Sprite\\chess_r_general_b.bmp"
+IDB_C0_6_1              BITMAP                  "res\\Sprite\\chess_r_general_g.bmp"
+IDB_C0_5_0              BITMAP                  "res\\Sprite\\chess_r_guardian_b.bmp"
+IDB_C0_5_1              BITMAP                  "res\\Sprite\\chess_r_guardian_g.bmp"
+IDB_C0_3_0              BITMAP                  "res\\Sprite\\chess_r_horse_b.bmp"
+IDB_C0_3_1              BITMAP                  "res\\Sprite\\chess_r_horse_g.bmp"
+IDB_C0_0_0              BITMAP                  "res\\Sprite\\chess_r_soilder_b.bmp"
+IDB_C0_0_1              BITMAP                  "res\\Sprite\\chess_r_soilder_g.bmp"
+IDB_TIMER0              BITMAP                  "res\\Sprite\\t0.bmp"
+IDB_TIMER1              BITMAP                  "res\\Sprite\\t1.bmp"
+IDB_TIMER2              BITMAP                  "res\\Sprite\\t2.bmp"
+IDB_TIMER3              BITMAP                  "res\\Sprite\\t3.bmp"
+IDB_TIMER4              BITMAP                  "res\\Sprite\\t4.bmp"
+IDB_TIMER5              BITMAP                  "res\\Sprite\\t5.bmp"
+IDB_TIMER6              BITMAP                  "res\\Sprite\\t6.bmp"
+IDB_TIMER7              BITMAP                  "res\\Sprite\\t7.bmp"
+IDB_TIMER8              BITMAP                  "res\\Sprite\\t8.bmp"
+IDB_TIMER9              BITMAP                  "res\\Sprite\\t9.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "遊戲(&G)"
+    BEGIN
+        MENUITEM "開新棋局(&N)\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "設定",                          ID_GAMESETTING
+        MENUITEM SEPARATOR
+        MENUITEM "結束(&X)",                      ID_APP_EXIT
+    END
+    POPUP "棋譜(&R)"
+    BEGIN
+        MENUITEM "載入棋譜(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "儲存棋譜(&S)\tCtrl+S",            ID_FILE_SAVE, GRAYED
+    END
+    POPUP "說明(&H)"
+    BEGIN
+        MENUITEM "關於 Xiangqi(&A)...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "關於 Xiangqi"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Xiangqi 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "確定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_GAMESETTING DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "遊戲設定"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "確定",IDOK,129,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,129,24,50,14
+    GROUPBOX        "遊戲設定",IDC_STATIC,7,7,114,45
+    EDITTEXT        IDC_TIME,49,25,39,12,ES_AUTOHSCROLL
+    LTEXT           "下棋時限",IDC_STATIC,14,27,36,14
+    LTEXT           "秒",IDC_STATIC,93,27,17,10
+END
+
+IDD_XIANGQIGAMECTRL DIALOGEX 0, 0, 109, 180
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "新細明體", 400, 0, 0x88
+BEGIN
+    GROUPBOX        "遊戲",IDC_STATIC,4,61,102,52
+    PUSHBUTTON      "悔棋",IDC_UNDO,40,76,30,15,WS_DISABLED
+    PUSHBUTTON      "棄局",IDC_QUIT,73,76,30,15,WS_DISABLED
+    GROUPBOX        "棋譜",IDC_STATIC,4,118,102,52
+    PUSHBUTTON      "上一步",IDC_PRE_STEP,18,130,34,15,WS_DISABLED
+    PUSHBUTTON      "下一步",IDC_NEXT_STEP,58,130,34,15,WS_DISABLED
+    PUSHBUTTON      "開始",IDC_START,7,76,30,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040403b6"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名稱>"
+            VALUE "FileDescription", "TODO: <檔案說明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Xiangqi.exe"
+            VALUE "LegalCopyright", "TODO: (c) <公司名稱>.  All rights reserved."
+            VALUE "OriginalFilename", "Xiangqi.exe"
+            VALUE "ProductName", "TODO: <產品名稱>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x404, 950
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_GAMESETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_XIANGQIGAMECTRL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 106
+        BOTTOMMARGIN, 177
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失敗。請確認 OLE 程式庫的版本是否正確。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Xiangqi\n\nXiangqi\n\n\nXiangqi.Document\nXiangqi.Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Xiangqi"
+    AFX_IDS_IDLEMESSAGE     "就緒"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "放棄本局，另開新局"
+    ID_FILE_OPEN            "載入先前儲存的棋局"
+    ID_FILE_CLOSE           "關閉使用中文件\n關閉檔案"
+    ID_FILE_SAVE            "儲存本棋局"
+    ID_FILE_SAVE_AS         "另存本棋局"
+    ID_FILE_PAGE_SETUP      "變更列印選項\n版面設定"
+    ID_FILE_PRINT_SETUP     "變更印表機及列印選項\n列印設定"
+    ID_FILE_PRINT           "列印使用中文件\n列印"
+    ID_FILE_PRINT_PREVIEW   "顯示整頁\n預覽列印"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "顯示程式資訊、版本號碼及著作權\n關於"
+    ID_APP_EXIT             "結束遊戲"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "開啟這份文件"
+    ID_FILE_MRU_FILE2       "開啟這份文件"
+    ID_FILE_MRU_FILE3       "開啟這份文件"
+    ID_FILE_MRU_FILE4       "開啟這份文件"
+    ID_FILE_MRU_FILE5       "開啟這份文件"
+    ID_FILE_MRU_FILE6       "開啟這份文件"
+    ID_FILE_MRU_FILE7       "開啟這份文件"
+    ID_FILE_MRU_FILE8       "開啟這份文件"
+    ID_FILE_MRU_FILE9       "開啟這份文件"
+    ID_FILE_MRU_FILE10      "開啟這份文件"
+    ID_FILE_MRU_FILE11      "開啟這份文件"
+    ID_FILE_MRU_FILE12      "開啟這份文件"
+    ID_FILE_MRU_FILE13      "開啟這份文件"
+    ID_FILE_MRU_FILE14      "開啟這份文件"
+    ID_FILE_MRU_FILE15      "開啟這份文件"
+    ID_FILE_MRU_FILE16      "開啟這份文件"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切換至下一窗格\n下一個窗格"
+    ID_PREV_PANE            "切換至上一個窗格\n上一個窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "將使用中視窗切割成窗格\n分割視窗"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "清除選取範圍\n清除"
+    ID_EDIT_CLEAR_ALL       "清除所有的項目\n全部清除"
+    ID_EDIT_COPY            "複製選取項目並放到剪貼簿\n複製"
+    ID_EDIT_CUT             "剪下選取項目並放到剪貼簿\n剪下"
+    ID_EDIT_FIND            "尋找指定的文字\n尋找"
+    ID_EDIT_PASTE           "插入剪貼簿的內容\n貼上"
+    ID_EDIT_REPEAT          "重複上次的動作\n重複"
+    ID_EDIT_REPLACE         "用不同的文字取代指定文字\n取代"
+    ID_EDIT_SELECT_ALL      "選取整份文件\n全選"
+    ID_EDIT_UNDO            "復原上次的動作\n復原"
+    ID_EDIT_REDO            "取消復原上次的動作\n取消復原"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "顯示或隱藏工具列\n切換工具列"
+    ID_VIEW_STATUS_BAR      "顯示或隱藏狀態列\n切換狀態列"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "變更視窗大小"
+    AFX_IDS_SCMOVE          "變更視窗位置"
+    AFX_IDS_SCMINIMIZE      "將視窗縮成一個圖示"
+    AFX_IDS_SCMAXIMIZE      "將視窗放到最大"
+    AFX_IDS_SCNEXTWINDOW    "切換至下一個文件視窗"
+    AFX_IDS_SCPREVWINDOW    "切換至上一個文件視窗"
+    AFX_IDS_SCCLOSE         "關閉使用中視窗並提示使用者儲存文件"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "將視窗還原成標準大小"
+    AFX_IDS_SCTASKLIST      "啟動工作清單"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "關閉預覽列印模式\n取消預覽"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_GAMESETTING         "遊戲設定"
+END
+
+STRINGTABLE 
+BEGIN
+    IDE_GAME_TIMER          "GAME TIMER"
+END
+
+#endif    // 中文 (台灣) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE 4, 1
+#pragma code_page(950)
+#include "res\Xiangqi.rc2"  // 非 Microsoft Visual C++ 編輯過的資源
+#include "afxres.rc"         // 標準元件
+#include "afxprint.rc"       // 列印/預覽列印資源
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
