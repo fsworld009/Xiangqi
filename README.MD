@@ -11,6 +11,9 @@ You can download the game in Releases page.
 - In Windows 10, you need to set compatibility to Windows 8 in order to see the board
 - If the game log is garbled, please change the system locale to `Traditional Chinese (Taiwan)`, or use [NTLEA](https://ntlea.codeplex.com) or [Locale Emulator](http://pooi.moe/Locale-Emulator/) to run the program in Traditional Chinese.
 
+### Compile
+The project was developed with Visual C++ 2005, the project files are included in the repository.
+
 ### Team member
 Me  
 [kaiji1315](https://github.com/kaiji1315)  
